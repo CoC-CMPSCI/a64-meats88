@@ -8,14 +8,24 @@ void swapValues(int &, int &, int &, int &);
 void swapValues(int &n1, int &n2)
 {
     // TODO
+    int tmp = n1;
+    n1 = n2;
+    n2 = tmp;
 }
+
 
 void swapValues(int &n1, int &n2, int &n3)
 {
     // TODO
+    int tmp = n1;
+    n1 = n2;
+    n2 = n3;
+    n3 = tmp;
 }
 
 void swapValues(int &n1, int &n2, int &n3, int &n4)
 {
     // TODO
+    swapValues(n1, n4);
+    swapValues(n2, n3);
 }
